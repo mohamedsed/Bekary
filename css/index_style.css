@@ -1,0 +1,137 @@
+
+ul{
+    list-style: non;
+}
+a{
+    color:#686868;
+}
+@font-face {
+    font-family: static;
+    src: url(../Alegreya-VariableFont_wght.ttf);
+}
+body
+{
+    font-family: var(static);
+}
+.navbar
+{
+   z-index: 33333;
+
+}
+.home
+{
+    background-image:linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url(../image/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.nav_img
+{
+    width: 150px;
+}
+.nav-item
+{
+    padding-right: 20px;
+}
+.home_btn1
+{
+    background-color: #8e7754;
+    border: none;
+    transition: 0.3s;
+    color: white;
+}
+.home_btn2
+{
+    background-color: transparent;
+    transition: 0.3s;
+    color: white;
+}
+.home_btn1:hover
+{
+    background-color: white;
+    color: black;
+}
+.home_btn2:hover
+{
+    background-color: white;
+    color: black;
+}
+.preef_icon
+{
+    font-size: 20px;
+    color: #8e7754 ;
+}
+#location
+{
+    background-color: #f8f8f8;
+}
+
+.location_content ul li{
+    padding: 15px 0;
+    padding-left: 2rem;
+    
+}
+
+.location_content ul i
+{
+    padding: 1rem;
+    background-color: #8e7754;
+    border-radius: 50%;
+    color: white;
+
+
+}
+#about
+{
+    background-color: #403d38;
+}
+#about i , li , p
+{
+    color: #969696;
+}
+#about i , li
+{
+    padding-top: 0.5rem;
+}
+#about .last_ul
+{
+    background-image: url(../image/contact-details-map.png);
+    background-size: cover;
+   
+}
+#footer
+{
+    background-color: #1b1b1b;
+}
+#footer .footer_icon i
+{
+    padding: 1rem;
+    background-color: #403d38;
+    border-radius: 50%;
+    color: #969696;
+    transition: 0.2s 0.2s;
+}
+#footer .footer_icon i:nth-child(1):hover
+{
+    color: white;
+    background-color: blue;
+}
+#footer .footer_icon i:nth-child(2):hover
+{
+    color: white;
+    background-color: tomato;
+}
+#footer .footer_icon i:nth-child(3):hover
+{
+    color: white;
+    background-color: #0275d8;
+}
+#footer .footer_icon i:nth-child(4):hover
+{
+    color: white;
+    background-color: #0275d8;
+}
+
+
+
